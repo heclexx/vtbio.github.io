@@ -1,4 +1,4 @@
-fetch("https://gh-pinned-repos.egoist.dev/?username=localware")
+fetch("https://t.me/tchdev")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((repo) => {
